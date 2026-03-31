@@ -3,8 +3,6 @@ kind: Service
 metadata:
   name: nginx-service
   namespace: default
-  annotations:
-    argocd.argoproj.io/sync-wave: "1"
 spec:
   selector:
     app: nginx
